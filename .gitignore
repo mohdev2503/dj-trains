@@ -1,0 +1,13 @@
+*.log
+/node_modules/
+/build/*
+!/build/important_file.txt
+# Ignore Python bytecode files
+*.pyc
+
+# Ignore environment configuration files
+.env
+
+# Ignore log files
+*.log
+
