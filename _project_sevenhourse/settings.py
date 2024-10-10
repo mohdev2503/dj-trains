@@ -43,6 +43,8 @@ INSTALLED_APPS = [
     'api.apps.ApiConfig',
     'django_extensions',
     'corsheaders',
+    'entities.apps.EntitiesConfig',
+    'events.apps.EventsConfig',
 ]
 
 MIDDLEWARE = [
